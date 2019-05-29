@@ -1,7 +1,5 @@
-#testing updates
 from __future__ import print_function
 import random
-import datetime
 import json
 import requests
 
@@ -56,13 +54,6 @@ def get_todays_menu_items():
     for item in json_array['ENTREES']:
         todays_menu_items =  todays_menu_items+(item["MenuItemDescription"]) +" , "
     return todays_menu_items
-
-def get_date():
-    month = datetime.datetime.now().strftime("%m")
-    day = datetime.datetime.now().strftime("%d")
-    year = datetime.datetime.now().strftime("%Y")
-    date = month +"%2f"+day+"%2f"+year
-    return date
 
 def handle_session_end_request():
     card_title = "Session Ended"
