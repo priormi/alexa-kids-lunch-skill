@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lunch menu",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "LunchMenuIntent",
+          "slots": [],
+          "samples": [
+            "what\u0027s for lunch today",
+            "tell me what is for lunch today",
+            "tell me what is on the menu today"
+          ]
+        },
+        {
+          "name": "LunchMenuTomorrowIntent",
+          "slots": [],
+          "samples": [
+            "what can I eat tomorrow",
+            "what is on the menu tomorrow",
+            "what is for lunch tomorrow"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "24"
+}
